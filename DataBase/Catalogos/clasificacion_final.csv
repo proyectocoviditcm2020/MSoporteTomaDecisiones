@@ -1,0 +1,13 @@
+clave,clasificacion,clasificacionb,descripcion
+1,Confirmado por Asoc. Clinica,Confirmado,"Confirmado por asociaci¢n aplica cuando el caso inform¢ ser contacto de un positivo a COVID-19 (y este se encuentra registrado en el SISVER) y:
+Al caso no se le tomo muestra o la muestra resulto no valida. "
+2,Confirmado por comite,Confirmado,"Confirmado por dictaminaci¢n solo aplica para defunciones bajo las siguientes condiciones: 
+Al caso no se le tomo muestra o s¡ se tom¢ muestra  pero la muestra result¢ no v lida. "
+3,Confirmado por laboratorio,Confirmado,"Confirmado por laboratorio aplica cuando:
+El caso tiene muestra y result¢ positiva  a SARS-CoV-2  sin importar si el caso tienen asociaci¢n cl¡nica epidemiol¢gica."
+4,Inválido por laboratorio,Invalido,Invalido aplica cuando el caso no tienen asociaci¢n cl¡nico epidemiol¢gica  ni dictaminaci¢n a COVID-19. Se le tom¢ muestra y esta result¢ no v lida. 
+5,No realizado por laboratorio,Indeterminado,No realizado aplica cuando el caso no tienen asociaci¢n cl¡nico epidemiol¢gica  ni dictaminaci¢n a COVID-19 y se le tom¢ muestra y esta no se proces¢.
+6,Caso sospechoso,Sospechoso,"Sospechoso aplica cuando: 
+El caso no tienen asociaci¢n cl¡nico epidemiol¢gica  ni dictaminaci¢n a COVID-19 y no se le tom¢ muestra  o se le tom¢ muestra y est  pendiente de resultado  sin importar otra condici¢n."
+7,Negativo por laboratorio,Negativo,"Negativo aplica cuando el caso:
+Se le tomo muestra y esta resulta: negativa a SARS-COV-2 o positiva a cualquier otro virus respiratorio (Influenza  VSR  Bocavirus  otros) sin importar que este caso tenga asociaci¢n cl¡nico epidemiol¢gica o dictaminaci¢n a COVID-19."
